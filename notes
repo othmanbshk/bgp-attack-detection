@@ -1,4 +1,3 @@
-
 Une fois les certificats émis, les titulaires des ressources (typiquement, des adresses IP) créent des objets signés, les ROA (Route Origin Authorizations). Ces ROA et les certificats sont distribués sur l'Internet (pas en temps réel) et tout routeur peut les consulter pour savoir si une annonce est légitime. Pour éviter de charger le routeur avec des calculs cryptographiques, la validation sera typiquement faite par une machine spécialisée, le validateur, que le routeur interrogera avec un protocole simple.
 
 BGP Leakage : hijacking annoncer des ip avec des numéros d'as mauvais :: pour toutes les ip passer par l'AS xxx
@@ -9,3 +8,5 @@ Choses à faire par rapport à BGP : On peut se servir de ça, on peut se servir
 
 BGP Stream : Essayer de voir si on peut avoir les mêms trucs qu'eux. Avoir accès à des flux qui viennetn d'un peu partout.
 plusieurs types : typos, prepending mistakes, origin changes, and forged AS paths.
+
+Essayer de trouver la suite d'échange dans notre bdd (?)
